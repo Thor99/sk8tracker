@@ -1,0 +1,22 @@
+h2 {
+	color: black;
+	margin-left: 5px;
+}
+
+body {
+	background-image: url("../images/bg5.jpg");
+	height: 100%;
+	width: 100%;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.progress {
+	margin-left: 5px;
+}
+
+#accordion {
+	max-height: 600px;
+	overflow:scroll;
+  -webkit-overflow-scrolling: touch;
+}
