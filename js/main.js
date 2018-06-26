@@ -259,5 +259,15 @@ $(document).ready(function(){
 				 </li>`
 			)
 		}
+
+    $('#customCheck' + i).on('click', () => {
+      if($('#customCheck' + i).prop('checked') === true) {
+        console.log('now is checked')
+        // progressBar aumenta
+      } else {
+        // progressBar diminui
+        console.log('now is not checked')
+      }
+    })
 	}
 });
